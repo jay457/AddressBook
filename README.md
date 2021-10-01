@@ -3,4 +3,4 @@ Developer Test project for WeUsThem
 
 A basic address book for contacts.
 
-Uses Android Studio
+Android studio project files. Can be run on Android Studio virtual device.
