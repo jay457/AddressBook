@@ -18,6 +18,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CreateActivity"
+            android:label="Settings"
+            android:exported="true">
+            <intent-filter>
+
+                <action android:name= "CreateActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
