@@ -4,6 +4,13 @@ import android.media.Image;
 
 public class Address {
 
+    public Address(String FName, String LName, String Email, String Phone) {
+        fName = FName;
+        lName = LName;
+        email = Email;
+        phone = Phone;
+    }
+
     private android.media.Image image;
 
     public Image getImage() {
@@ -26,11 +33,10 @@ public class Address {
         return phone;
     }
 
-    private String fName;
-    private String lName;
-    private String email;
-    private String phone;
-    public int ID;
+    private String fName = "";
+    private String lName = "";
+    private String email = "";
+    private String phone = "";
 
 
 
